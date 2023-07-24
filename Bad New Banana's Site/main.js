@@ -78,17 +78,17 @@ window.onclick = function(event) {
   var rows2 = [].slice.call(tbody2.rows, 0);
 
   rows2.sort(function(a, b) {
-    var aBA = parseFloat(a.cells[13].innerText || a.cells[13].textContent);
-    var bBA = parseFloat(b.cells[13].innerText || b.cells[13].textContent);
+    var aBA = parseFloat(a.cells[12].innerText || a.cells[12].textContent);
+    var bBA = parseFloat(b.cells[12].innerText || b.cells[12].textContent);
 
-    var aOBP = parseFloat(a.cells[14].innerText || a.cells[14].textContent);
-    var bOBP = parseFloat(b.cells[14].innerText || b.cells[14].textContent);
+    var aOBP = parseFloat(a.cells[13].innerText || a.cells[13].textContent);
+    var bOBP = parseFloat(b.cells[13].innerText || b.cells[13].textContent);
 
-    var aSLG = parseFloat(a.cells[15].innerText || a.cells[15].textContent);
-    var bSLG = parseFloat(b.cells[15].innerText || b.cells[15].textContent);
+    var aSLG = parseFloat(a.cells[14].innerText || a.cells[14].textContent);
+    var bSLG = parseFloat(b.cells[14].innerText || b.cells[14].textContent);
 
-    var aOPS = parseFloat(a.cells[16].innerText || a.cells[16].textContent);
-    var bOPS = parseFloat(b.cells[16].innerText || b.cells[16].textContent);
+    var aOPS = parseFloat(a.cells[15].innerText || a.cells[15].textContent);
+    var bOPS = parseFloat(b.cells[15].innerText || b.cells[15].textContent);
 
     if (aBA !== bBA) {
         return bBA - aBA;
