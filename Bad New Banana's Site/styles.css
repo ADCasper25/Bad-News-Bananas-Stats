@@ -1,0 +1,395 @@
+#navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: #111;
+}
+
+#content {
+    padding: 20px;
+}
+#content h1, #content h2 {
+    color: #333;
+}
+#content p {
+    font-size: 18px;
+}
+#content a {
+    color: #007BFF;
+}
+#content a:hover {
+    color: #0056b3;
+}
+
+#playerStats {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#playerStats th, #playerStats td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#playerStats tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#playerStats tr:hover {
+    background-color: #ddd;
+}
+
+#playerStats th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffff00;
+    color: black;
+}
+
+
+/* Styles for second table */
+#subStats {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#subStats th,
+#subStats td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#subStats tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#subStats tr:hover {
+    background-color: #ddd;
+}
+
+#subStats th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffff00;
+    color: black;
+}
+
+
+
+/* New styles for the game stats table */
+#gameStats {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#gameStats th, #gameStats td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+#gameStats th {
+    background-color: #f2f2f2;
+}
+
+#gameStats tbody tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+#gameStats tbody tr:hover {
+    background-color: #cccccc;
+	
+	
+}
+
+
+
+/*Leaders Styles*/
+#leadersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#leadersTable th, #leadersTable td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+#leadersTable th {
+    background-color: #f2f2f2;
+}
+
+#leadersTable tbody tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+#leadersTable tbody tr:hover {
+    background-color: #cccccc;
+}
+
+
+/*This is for the table in teamleaders.html (Team Highs)*/
+/* Team Highs Table */
+#teamHighs {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#teamHighs th,
+#teamHighs td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+#teamHighs th {
+   background-color: #e6e6e6;
+}
+
+#teamHighs tbody tr:nth-chld(even){
+	background-color: #e6e6e6;
+}
+
+#teamHighs tbody tr:hover {
+	background-color: #cccccc;
+}
+
+
+/*Szn Leader Tables Formatting*/
+.szn-leaders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-content: start;  /* This will align the tables to the top */
+}
+
+.leader-table {
+    width: 45%;  /* Adjust to fit your needs */
+    border-collapse: collapse;
+    margin-bottom: 20px;  /* This will add some space between the rows of tables */
+}
+
+.leader-table th {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    background-color: #ff0;  /* Yellow color for headers */
+    color: #000;  /* Black text for headers */
+}
+
+.leader-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;  /* White background for cells */
+}
+
+.leader-table tr:nth-child(even) {
+    background-color: #f2f2f2;  /* Alternate colors for rows */
+}
+
+
+
+
+
+
+
+/*Multi Hit Games Table Format*/
+
+.multihit-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.multihit-table table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.multihit-table th {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.multihit-table tr:first-child th {
+    background-color: yellow;
+    color: black;
+}
+
+.multihit-table tr:not(:first-child) {
+    background-color: white;
+}
+
+.multihit-table td {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+
+/*Hit Streak Table Format*/
+.hitstrk-tbl {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hitstrk-tbl table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.hitstrk-tbl th {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.hitstrk-tbl tr:first-child th {
+    background-color: yellow;
+    color: black;
+}
+
+.hitstrk-tbl tr:not(:first-child) {
+    background-color: white;
+}
+
+.hitstrk-tbl td {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+/*OB Streak Table Format*/
+.OBstrk-tbl {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.OBstrk-tbl table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.OBstrk-tbl th {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.OBstrk-tbl tr:first-child th {
+    background-color: yellow;
+    color: black;
+}
+
+.OBstrk-tbl tr:not(:first-child) {
+    background-color: white;
+}
+
+.OBstrk-tbl td {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+/*Modal Stuff*/
+.modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.modal.active {
+    display: block;
+}
+
+
+/*Modal Table Stuff*/
+.modal-content table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.modal-content table td, .modal-content table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: black;
+}
+
+.modal-content table tr:nth-child(even) {
+    background-color: white;
+}
+
+.modal-content table tr:hover {
+    background-color: #ddd;
+}
+
+.modal-content table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+
+/*Scrollable Table Stuff*/
+.scrollable-table {
+  max-height: 200px; /* Set this to whatever you think is best */
+  overflow-y: auto;
+}
+
+
+
